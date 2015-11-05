@@ -9,9 +9,9 @@ Intro to Geocoding Session for Mozilla Festival 2015; no 40,000 word special iss
 * [David Riordan](https://github.com/riordan)
 
 
-## Outline
+## Outline:
 
-### You are here.
+### You are [here](http://www.ravensbourne.ac.uk/).
 
 ![ravensbourne](http://i.imgur.com/GnCgVH7.jpg)
 
@@ -36,16 +36,16 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 - Translate from the world of human-recognizable addresses + names => coordinates (e.g. latitudes and longitudes)
 - Convert an address to "referenced coordinates"
 
-**CONSIDERATIONS**
+**Considerations**
 - Anything you might want to compute about place uses coordinate data, which computers can easily understand, as opposed to these addresses
 - Addresses aren't computable, and (for our purposes at least) aren't map-able
 
 ### What do geocoders do?
 
-- What's an address then?
+**What's an address then?**
 	- Identication + References
 	- Used to identify a place and provide enough information to route to there (with local context or knowledge)
-- What are coordinates?
+**What are coordinates?**
 	- Latitude + Longitude
 
 ### How are geocoders done?
@@ -53,7 +53,7 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 * [Pelias](https://mapzen.com/pelias) - open source geocoder by MapZen
 * [CSV geocoder](https://github.com/veltman/csvgeocode) - a map project by Noah Veltman
 
-### Demos
+### Let's play with geocoders!
 
 - Adventures in reverse geocoding
 - Experiements with re-geocoding a few datasets
