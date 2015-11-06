@@ -37,16 +37,19 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 - Convert an address to "referenced coordinates"
 
 **Considerations**
+
 - Anything you might want to compute about place uses coordinate data, which computers can easily understand, as opposed to these addresses
 - Addresses aren't computable, and (for our purposes at least) aren't map-able
 
 ### What do geocoders do?
 
 **What's an address then?**
+
 	- Identication + References
 	- Used to identify a place and provide enough information to route to there (with local context or knowledge)
 
 **What are coordinates?**
+
 	- Latitude + Longitude
 
 ### How are geocoders done?
