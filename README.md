@@ -45,6 +45,7 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 **What's an address then?**
 	- Identication + References
 	- Used to identify a place and provide enough information to route to there (with local context or knowledge)
+	
 **What are coordinates?**
 	- Latitude + Longitude
 
