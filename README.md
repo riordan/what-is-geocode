@@ -45,14 +45,16 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 **What's an address then?**
 	- Identication + References
 	- Used to identify a place and provide enough information to route to there (with local context or knowledge)
-	
+
 **What are coordinates?**
 	- Latitude + Longitude
 
 ### How are geocoders done?
 
+* [CartoDB Academy Account](https://cartodb.com/signup?plan=academy) - geocoding credits and free space
 * [Pelias](https://mapzen.com/pelias) - open source geocoder by MapZen
 * [CSV geocoder](https://github.com/veltman/csvgeocode) - a map project by Noah Veltman
+* [GeoCodio](http://geocod.io/) - geocoding as a service
 
 ### Let's play with geocoders!
 
