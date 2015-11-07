@@ -3,6 +3,8 @@ What is Geocode?
 
 Intro to Geocoding Session for Mozilla Festival 2015; no 40,000 word special issue needed.
 
+![](http://i.imgur.com/RqhIgbV.png)
+
 ## Faciliators:
 * [Stuart Lynn](https://github.com/stuartlynn)
 * [Aurelia Moser](https://github.com/auremoser)
@@ -33,6 +35,8 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 
 ### Why are geocoders necessary?
 
+![daynight](http://i.imgur.com/gAHunJD.jpg)
+
 - Translate from the world of human-recognizable addresses + names => coordinates (e.g. latitudes and longitudes)
 - Convert an address to "referenced coordinates"
 
@@ -43,14 +47,16 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 
 ### What do geocoders do?
 
+![](http://i.imgur.com/dp3M1ru.jpg)
+
 **What's an address then?**
 
-	- Identication + References
-	- Used to identify a place and provide enough information to route to there (with local context or knowledge)
+- Identication + References
+- Used to identify a place and provide enough information to route to there (with local context or knowledge)
 
 **What are coordinates?**
 
-	- Latitude + Longitude
+- Latitude + Longitude
 
 ### How are geocoders done?
 
@@ -63,3 +69,5 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 
 - Adventures in reverse geocoding
 - Experiements with re-geocoding a few datasets
+
+![](http://i.imgur.com/RqhIgbV.png)
