@@ -10,6 +10,11 @@ Intro to Geocoding Session for Mozilla Festival 2015; no 40,000 word special iss
 * [Aurelia Moser](https://github.com/auremoser)
 * [David Riordan](https://github.com/riordan)
 
+## Notes:
+
+* Etherpad: <https://public.etherpad-mozilla.org/p/Putting-the-world-in-its-place-geocoders>
+* Repo: <https://github.com/riordan/what-is-geocode>
+
 ## Outline:
 
 ### You are [here](http://www.ravensbourne.ac.uk/).
