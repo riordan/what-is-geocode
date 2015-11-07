@@ -10,7 +10,6 @@ Intro to Geocoding Session for Mozilla Festival 2015; no 40,000 word special iss
 * [Aurelia Moser](https://github.com/auremoser)
 * [David Riordan](https://github.com/riordan)
 
-
 ## Outline:
 
 ### You are [here](http://www.ravensbourne.ac.uk/).
@@ -56,7 +55,11 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 
 **What are coordinates?**
 
-- Latitude + Longitude
+- Latitude + Longitude [WGS84]: 51.502817, 0.003117
+- (or other coordinate systems)
+    - Military Grid Reference System: 31UBT9185310007
+    - Geohash: u10hbp
+- Standard locator systems to find a place; assume you're using Latitude & Longitude as your units and WGS84 as your coordinate system
 
 ### How are geocoders done?
 
@@ -65,9 +68,29 @@ In general [addresses be crazy](https://www.mjt.me.uk/posts/falsehoods-programme
 * [CSV geocoder](https://github.com/veltman/csvgeocode) - a map project by Noah Veltman
 * [GeoCodio](http://geocod.io/) - geocoding as a service
 
+### Understand Your Needs:
+
+ * Lists of data
+   * Address Data - Address geocoder (google, Here, Nominatim, national geocoders) - Most tools are optimized for this
+   * Cities, Towns, Neighborhoods - Places that aren't getting enclosed with walls and a roof - Coarse Geocoder (CartoDB Free, Twofishes, Nominatim, Mapzen, Google)
+   * Businesses, public spaces, named places: Points of Interest - Yelp, Foursquare, Google, Facebook
+   * Coordinates -> place names:
+    * An address: Google, Here, Nominatim, geocodio - look at who has coverage
+    * A business: Yelp, 4sq, Google, Facebook, weird proprietary data providers - only ones with the databases
+    * Cities, Towns, Neighborhoods, states: Twofishes, Mapzen Search
+ * Place names in text:
+  * Looking for "That looks like a place"
+  * Geoparsing: [CLIFF from MediaMeter](http://cliff.mediameter.org/)
+ * Making An An Interactive Thing (app/Site):
+  * Localizing users (region) - Autocomplete Geocoder with regions
+
+
 ### Let's play with geocoders!
 
 - Adventures in reverse geocoding
 - Experiements with re-geocoding a few datasets
+- API Keys:
+  - Mapzen Search: search-wmLsOxQ [temporary]
 
 ![](http://i.imgur.com/RqhIgbV.png)
+
